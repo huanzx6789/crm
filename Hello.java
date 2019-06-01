@@ -5,5 +5,6 @@ public class Hello {
 		System.out.println("分支管理") ;
 		System.out.println("branch") ;
 		System.out.println("checkout branchname") ;
+		System.out.println("stash 挂起")
 	}
 }
