@@ -9,4 +9,7 @@ public class Demo {
 	public Demo() {
 		System.out.println(str.equals(orstr)) ;
 	}
+	public void setStr(String str) {
+		this.str = str ;
+	}
 }
