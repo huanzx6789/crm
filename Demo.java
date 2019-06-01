@@ -6,11 +6,8 @@ public class Demo {
 	private String name ;
 	private String str = "hello" ;
 	private String orstr = new String("hello") ;
-	//--------------test----
-	public Demo() {
-		System.out.println(str.equals(orstr)) ;
-	}
-	public void setStr(String str) {
-		this.str = str ;
+	
+	public void toString() {
+		System.out.println(name) ;
 	}
 }
