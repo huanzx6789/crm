@@ -3,15 +3,14 @@
 
 public class Demo {
 	//---------test---------
-<<<<<<< HEAD
 	private String name ;
-	
-=======
 	private String str = "hello" ;
 	private String orstr = new String("hello") ;
 	//--------------test----
 	public Demo() {
 		System.out.println(str.equals(orstr)) ;
 	}
->>>>>>> master
+	public void setStr(String str) {
+		this.str = str ;
+	}
 }
